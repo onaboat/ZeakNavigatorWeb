@@ -164,7 +164,7 @@ export default function Navbar() {
             onClick={() => scrollToSection('hero')}
           >
             <Image 
-              src="/logos/ZK.png" 
+              src="https://www.zeaknavigator.com/logos/zk.png" 
               alt="ZK Logo" 
               height={32}
               width={32}
