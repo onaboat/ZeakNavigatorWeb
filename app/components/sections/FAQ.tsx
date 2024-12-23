@@ -57,7 +57,7 @@ export default function FAQ() {
           <div className="collapse collapse-arrow join-item border-base-300 border">
             <input type="radio" name="faq-accordion" />
             <div className="collapse-title text-xl font-medium">
-              Future Plans (What's Next?)
+              Future Plans (What&apos;s Next?)
             </div>
             <div className="collapse-content">
               <ul className="list-disc pl-6 space-y-2">

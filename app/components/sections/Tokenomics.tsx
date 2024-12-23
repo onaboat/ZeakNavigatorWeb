@@ -15,7 +15,7 @@ export default function Tokenomics() {
             <div className="w-px h-12 bg-primary"></div>
             
             <div className="text-center">
-              <span className="font-semibold block">VC's</span>
+              <span className="font-semibold block">VC&apos;s</span>
               <span className="font-bold text-xl">0%</span>
             </div>
             

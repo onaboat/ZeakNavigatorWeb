@@ -1,6 +1,6 @@
 'use client';
 import Logos from "./Logos";
-import ParticleOrb from "../ParticleOrb";
+
 
 export default function Hero() {
     return (
