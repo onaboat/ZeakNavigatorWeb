@@ -62,7 +62,7 @@ export default function Navbar() {
             onClick={() => scrollToSection('hero')}
           >
             <Image 
-              src="/logos/zk.png" 
+              src="/logos/ZK.png" 
               alt="ZK Logo" 
               height={32}
               width={32}
@@ -163,13 +163,7 @@ export default function Navbar() {
             className="btn btn-ghost text-xl p-2"
             onClick={() => scrollToSection('hero')}
           >
-            <Image 
-              src="https://www.zeaknavigator.com/logos/zk.png" 
-              alt="ZK Logo" 
-              height={32}
-              width={32}
-              className="h-8"
-            />
+            <img src="/logos/ZK.png" alt="ZK Logo" className="w-full h-full object-contain" />
           </a>
           {/* <a className="btn">Connect Wallet</a> */}
         </div>
