@@ -19,7 +19,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "tsparticles": ["./node_modules/tsparticles"],
+      "tsparticles-engine": ["./node_modules/@tsparticles/engine"],
+      "react-tsparticles": ["./node_modules/react-tsparticles"],
+      "tsparticles-slim": ["./node_modules/tsparticles-slim"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
