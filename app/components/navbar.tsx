@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image'
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -60,9 +61,11 @@ export default function Navbar() {
             className="btn btn-ghost text-xl cursor-pointer p-2 hover:text-primary"
             onClick={() => scrollToSection('hero')}
           >
-            <img 
-              src="./logos/zk.png" 
+            <Image 
+              src="/logos/zk.png" 
               alt="ZK Logo" 
+              height={32}
+              width={32}
               className="h-8"
             />
           </a>
@@ -160,9 +163,11 @@ export default function Navbar() {
             className="btn btn-ghost text-xl p-2"
             onClick={() => scrollToSection('hero')}
           >
-            <img 
-              src="/zk.png" 
+            <Image 
+              src="/logos/zk.png" 
               alt="ZK Logo" 
+              height={32}
+              width={32}
               className="h-8"
             />
           </a>
