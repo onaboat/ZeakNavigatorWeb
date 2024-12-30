@@ -9,7 +9,7 @@ export default function Hero() {
                 <ParticleBg containerId="hero-particles" />
             </div>
             <div className="hero min-h-screen relative z-10">
-                <div className="hero-content text-center">
+                <div className="hero-content text-center px-4 md:px-0">
                     <div className="flex flex-col items-center">
                         <h1 className="text-5xl font-bold text-primary">Power Up Your Wallet. Unlock the Future.</h1>
                         <h3 className="text-3xl font-bold text-primary">Manage Compressed Tokens Effortlessly with zeak Navigator</h3>
