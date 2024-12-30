@@ -9,14 +9,12 @@ import Tokenomics from './components/sections/Tokenomics'
 import LaunchPromo from './components/sections/LaunchPromo'
 // import RoadMap from './components/sections/RoadMap'
 import FAQ from './components/sections/FAQ'
-import ParticleOrb from './components/ParticleOrb'
+
 
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
-      
       <Hero />
-      <ParticleOrb /> 
       {/* <Logos /> */}
       <About />
       {/* <Swap /> */}
@@ -27,7 +25,7 @@ export default function Home() {
       <Tokenomics />
 
       {/* <RoadMap /> */}
-      <FAQ />
+      <FAQ /> 
     </main>
   );
 }
