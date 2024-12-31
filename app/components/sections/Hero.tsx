@@ -16,7 +16,6 @@ export default function Hero() {
                         <div className="max-w-lg mx-auto">
                             <p className="py-6 text-secondary">Simplify Token Management with Cutting-Edge zkCompression Technology—Fast, Secure, and Cost-Effective</p>
                         </div>
-                        <br></br>
                         <div className="max-w-lg mx-auto">
                             <p className="py-6 text-secondary hover:underline"><a href="https://t.me/zeaknavigatorgroup" className="text-primary">Join the revolution in token management. </a></p>
                         </div>
