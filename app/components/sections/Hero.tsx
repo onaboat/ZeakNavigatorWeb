@@ -18,7 +18,7 @@ export default function Hero() {
                         </div>
                         <br></br>
                         <div className="max-w-lg mx-auto">
-                            <p className="py-6 text-secondary"><a href="https://t.me/zeaknavigatorgroup" className="text-primary">Join the revolution in token management. </a></p>
+                            <p className="py-6 text-secondary hover:underline"><a href="https://t.me/zeaknavigatorgroup" className="text-primary">Join the revolution in token management. </a></p>
                         </div>
                         <Logos />
                     </div>
