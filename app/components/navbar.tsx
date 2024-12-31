@@ -88,7 +88,7 @@ export default function Navbar() {
           {/* <a className="btn mr-4">Connect Wallet</a> */}
           <div className="flex gap-4 items-center">
             <a 
-              href="t.me/zeaknavigatorgroup" 
+              href="https://t.me/zeaknavigatorgroup" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
