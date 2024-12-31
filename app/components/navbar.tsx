@@ -88,7 +88,7 @@ export default function Navbar() {
           {/* <a className="btn mr-4">Connect Wallet</a> */}
           <div className="flex gap-4 items-center">
             <a 
-              href="https://telegram.org" 
+              href="t.me/zeaknavigator" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
@@ -104,7 +104,7 @@ export default function Navbar() {
               </svg>
             </a>
             <a 
-              href="https://twitter.com" 
+              href="https://x.com/zeaknavigator" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
