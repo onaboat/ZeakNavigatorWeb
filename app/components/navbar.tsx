@@ -104,7 +104,7 @@ export default function Navbar() {
               </svg>
             </a>
             <a 
-              href="https://twitter.com" 
+              href="https://x.com/zeaknavigator" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
@@ -187,7 +187,7 @@ export default function Navbar() {
         {/* Add social icons to mobile menu */}
         <div className="p-4 flex gap-4">
           <a 
-            href="https://telegram.org" 
+            href="https://t.me/zeaknavigatorgroup" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
@@ -203,7 +203,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a 
-            href="https://twitter.com" 
+            href="https://x.com/zeaknavigator" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
