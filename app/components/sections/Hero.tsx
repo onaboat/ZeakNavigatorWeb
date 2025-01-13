@@ -14,7 +14,7 @@ export default function Hero() {
                         <h1 className="text-5xl font-bold text-primary">Power Up Your Wallet. Unlock the Future.</h1>
                         <h3 className="text-3xl font-bold text-primary">Manage Compressed Tokens Effortlessly with zeaknavigator</h3>
                         <div className="max-w-lg mx-auto">
-                            <p className="py-6 text-secondary">Simplify Token Management with Cutting-Edge zkCompression Technology—Fast, Secure, and Cost-Effective</p>
+                            <p className="py-6 text-secondary">Simplify Token Management with Cutting-Edge zkCompression Technology Fast, Secure, and Cost-Effective</p>
                         </div>
                         <div className="max-w-lg mx-auto">
                             <p className="py-6 text-secondary hover:underline"><a href="https://t.me/zeaknavigatorgroup" className="text-primary">Join the revolution in token management. </a></p>
