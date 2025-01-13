@@ -37,7 +37,7 @@ export default function Navbar() {
           <div>
             <div 
               role="button" 
-              className="btn btn-ghost lg:hidden"
+              className="btn btn-ghost"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               <svg
@@ -62,15 +62,15 @@ export default function Navbar() {
             onClick={() => scrollToSection('hero')}
           >
             <Image 
-              src="/logos/ZK.png" 
+              src="/logos/zN.svg" 
               alt="ZK Logo" 
-              height={32}
-              width={32}
+              height={64}
+              width={64}
               className="h-8"
             />
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden">
           <ul className="menu menu-horizontal px-1 text-secondary">
             {navItems.map((item) => (
               <li key={item.id}>
@@ -125,7 +125,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Panel */}
       <div className={`
-        fixed top-0 left-0 h-full w-1/2 bg-base-100 shadow-xl transform transition-transform duration-300 ease-in-out lg:hidden
+        fixed top-0 left-0 h-full w-1/2 bg-base-100 shadow-xl transform transition-transform duration-300 ease-in-out
         ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
         z-50
       `}>
@@ -163,7 +163,7 @@ export default function Navbar() {
             className="btn btn-ghost text-xl p-2"
             onClick={() => scrollToSection('hero')}
           >
-            <img src="/logos/ZK.png" alt="ZK Logo" className="w-full h-full object-contain" />
+            <img src="/logos/zN.svg" alt="ZK Logo" className="w-full h-full object-contain" />
           </a>
           {/* <a className="btn">Connect Wallet</a> */}
         </div>
@@ -186,7 +186,7 @@ export default function Navbar() {
 
         {/* Add social icons to mobile menu */}
         <div className="p-4 flex gap-4">
-          <a 
+          {/* <a 
             href="https://t.me/zeaknavigatorgroup" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -217,13 +217,13 @@ export default function Navbar() {
             >
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
 
       {/* Overlay */}
       <div 
-        className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300 lg:hidden
+        className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300
           ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
         onClick={() => setIsMobileMenuOpen(false)}
       />
