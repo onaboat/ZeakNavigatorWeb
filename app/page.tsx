@@ -21,7 +21,7 @@ export default function Home() {
       <PromoImage />
       {/* <MemeAssets /> */}
       <Mission />
-      {/* <LaunchPromo /> */}
+      <LaunchPromo />
       {/* <Tokenomics /> */}
 
       {/* <RoadMap /> */}

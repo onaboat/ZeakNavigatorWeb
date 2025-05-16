@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 
 export default function LaunchPromo() {
-  const launchDate = new Date('2025-01-23T12:00:00+11:00');
+  const launchDate = new Date('2025-05-19T16:00:00+11:00');
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
