@@ -24,7 +24,7 @@ export default function FAQ() {
               </ul>
             </div>
           </div>
-
+{/* 
           <div className="collapse collapse-arrow join-item border-base-300 border">
             <input type="radio" name="faq-accordion" />
             <div className="collapse-title text-xl font-medium">
@@ -38,7 +38,7 @@ export default function FAQ() {
                 <li>Locked Value - Some NFTs require $ZK to be locked, fostering deeper commitment to the project.</li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           <div className="collapse collapse-arrow join-item border-base-300 border">
             <input type="radio" name="faq-accordion" />
