@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer footer-center p-10">
       <div>
-        <p className="text-secondary">Copyright © 2024 - All rights reserved by zeak Navigator</p>
+        <p className="text-secondary">Copyright © 2025 - All rights reserved by zeak Navigator</p>
       </div>
       <div className="flex justify-center items-center space-x-4">
         <a 

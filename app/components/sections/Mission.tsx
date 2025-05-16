@@ -5,7 +5,7 @@ export default function Mission() {
         <h2 className="text-4xl font-bold text-center mb-10 text-secondary">Our Mission</h2>
         <p className="text-4xl text-center mb-10 text-secondary">Effortless Token Control for Everyone — Streamlined Management, Powerful Compression Tools, and zkCompression-Backed Efficiency</p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 max-w-2xl mx-auto">
           {/* $ZK Token Column */}
           <div className="bg-base-200 rounded-lg p-8">
             <h3 className="text-2xl font-bold text-primary mb-4">$ZK Token</h3>
@@ -18,14 +18,14 @@ export default function Mission() {
           </div>
 
           {/* Navigator NFT Column */}
-          <div className="bg-base-200 rounded-lg p-8">
+          {/* <div className="bg-base-200 rounded-lg p-8">
             <h3 className="text-2xl font-bold text-primary mb-4">Navigator NFT</h3>
             <div className="space-y-4 text-secondary">
               <p>Navigator NFTs are unique digital collectibles inspired by exploration and innovation.</p>
               <p>Top $ZK holders will be rewarded with a Navigator NFT. These NFTs come with exclusive perks—early access to features, premium tools, and more.</p>
               <p>You definitely want to collect one (alpha!).</p>
-            </div>
-          </div>
+            </div> 
+          </div>*/}
         </div>
       </div>
     </section>

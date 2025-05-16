@@ -2,8 +2,8 @@ export default function Logos() {
   const logos = [
     { name: "Solana", src: "/logos/solana.png" },
     { name: "Helius", src: "/logos/poweredbyhelius.png" },
-    { name: "Jupiter", src: "/logos/Jupiter.png" },
-    { name: "Pumpfun", src: "/logos/Pumpfun.png" },
+    // { name: "Jupiter", src: "/logos/Jupiter.png" },
+    // { name: "Pumpfun", src: "/logos/Pumpfun.png" },
   ];
 
   return (

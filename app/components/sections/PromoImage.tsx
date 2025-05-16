@@ -6,7 +6,7 @@ export default function PromoImage() {
           <iframe 
             width="960" 
             height="540" 
-            src="https://www.youtube.com/embed/nCI1vmcBLBY?rel=0&modestbranding=1&showinfo=0" 
+            src="https://www.youtube.com/embed/1zYOK1KeRMk?si=9_Rn8SeTLKaxymmB" 
             title="YouTube video player" 
             frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
